@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+Theme Name: akinablog
+Theme URI:
+Description: blog
+Author: Akina Yamada
+Author URI:
+Version: 1.0
+*/
+
+$main-color-gray:#BCB5B5;
+$main-color-orange:#EF866B;
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header */
+.title{
+    color:$main-color-orange;
+    border-bottom: none;
+    text-decoration: none;
+}
+/* navbar */
+nav{
+    background:$main-color-gray;
+    display: flex;
+}
+nav > a{
+    color: white;
+}

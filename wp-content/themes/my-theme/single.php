@@ -10,10 +10,10 @@
 
 <body>
     <?php get_header(); ?>
-    <h1>Welcome to my Blog!</h1>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <h1><?php the_title(); ?></h1>
+            <p><?php the_time('Y-m-d'); ?></p>
             <article><?php the_content(); ?></article>
         <?php endwhile; ?>
     <?php endif; ?>
