@@ -7,11 +7,15 @@ Author URI:
 Version: 1.0
 */
 body {
+  margin: 0;
+}
+
+/* header */
+header {
   width: 80%;
   margin: 0 auto;
 }
 
-/* header */
 .title {
   color: #EF866B;
   border-bottom: none;
@@ -20,13 +24,54 @@ body {
 
 /* navbar */
 nav {
+  width: 100%;
   background: #BCB5B5;
+}
+
+nav label {
+  display: block;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav input {
+  display: none;
+}
+
+nav .links {
+  list-style: none;
+}
+
+nav .links li {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav #menu_bar:checked ~ .links li {
+  height: 54px;
+  opacity: 1;
+}
+
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
 }
 
-nav > a {
+.nav li {
+  margin: .8rem 4rem .8rem 0;
+}
+
+.nav a {
   color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

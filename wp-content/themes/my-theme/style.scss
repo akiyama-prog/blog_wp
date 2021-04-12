@@ -12,10 +12,17 @@ $main-color-gray:#BCB5B5;
 $main-color-orange:#EF866B;
 
 body{
+    margin: 0;
+}
+
+#container{
+
+}
+/* header */
+header{
     width: 80%;
     margin: 0 auto;
 }
-/* header */
 .title{
     color:$main-color-orange;
     border-bottom: none;
@@ -23,9 +30,47 @@ body{
 }
 /* navbar */
 nav{
+    width: 100%;
     background:$main-color-gray;
-    display: flex;
+    //アコーディオンメニュー
+    label {
+        display: block;
+        cursor :pointer;
+        color: white;
+        font-size: 1.5rem;
+    }
+    input {
+        display: none;
+    }
+    .links{
+        list-style: none;
+    }
+    .links li{
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    #menu_bar:checked ~ .links li{
+        height: 54px;
+        opacity: 1;
+    }
 }
-nav > a{
-    color: white;
+.nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    li{
+        margin: .8rem 4rem .8rem 0;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
 }
