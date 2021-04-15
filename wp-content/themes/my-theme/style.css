@@ -7,11 +7,15 @@ Author URI:
 Version: 1.0
 */
 body {
+  margin: 0;
+}
+
+/* header */
+header {
   width: 80%;
   margin: 0 auto;
 }
 
-/* header */
 .title {
   color: #EF866B;
   border-bottom: none;
@@ -20,13 +24,70 @@ body {
 
 /* navbar */
 nav {
+  width: 100%;
   background: #BCB5B5;
+}
+
+nav .dropdown:hover #links li {
+  overflow: visible;
+  height: 38px;
+  border-bottom: 1px solid #fff;
+  background: white;
+  border-bottom: dotted 1px #BCB5B5;
+}
+
+nav .dropdown:hover #links li:hover {
+  background: #BCB5B5;
+}
+
+nav .dropdown:hover #links li:hover a {
+  color: white;
+}
+
+nav #links {
+  list-style: none;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav #links li {
+  overflow: hidden;
+  width: 250%;
+  height: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 0;
+}
+
+nav #links li a {
+  padding: 20px 15px;
+  color: #BCB5B5;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 80%;
 }
 
-nav > a {
+.nav li {
+  margin: .8rem 4rem .8rem 0;
+  position: relative;
+}
+
+.nav a {
   color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
