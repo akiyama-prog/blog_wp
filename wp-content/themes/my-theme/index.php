@@ -15,7 +15,7 @@
                 <p><?php the_excerpt() ?><br><?php the_post_thumbnail(); ?></p>
             <?php endwhile; ?>
         <?php endif; ?>
-
+        <?php echo paginate_links() ?>
         <?php wp_footer(); ?>
     </div>
 </body>

@@ -28,31 +28,46 @@ nav {
   background: #BCB5B5;
 }
 
-nav label {
-  display: block;
-  cursor: pointer;
+nav .dropdown:hover #links li {
+  overflow: visible;
+  height: 38px;
+  border-bottom: 1px solid #fff;
+  background: white;
+  border-bottom: dotted 1px #BCB5B5;
+}
+
+nav .dropdown:hover #links li:hover {
+  background: #BCB5B5;
+}
+
+nav .dropdown:hover #links li:hover a {
   color: white;
-  font-size: 1.5rem;
 }
 
-nav input {
-  display: none;
-}
-
-nav .links {
+nav #links {
   list-style: none;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav .links li {
-  height: 0;
+nav #links li {
   overflow: hidden;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  width: 250%;
+  height: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin: 0;
 }
 
-nav #menu_bar:checked ~ .links li {
-  height: 54px;
-  opacity: 1;
+nav #links li a {
+  padding: 20px 15px;
+  color: #BCB5B5;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .nav {
@@ -67,6 +82,7 @@ nav #menu_bar:checked ~ .links li {
 
 .nav li {
   margin: .8rem 4rem .8rem 0;
+  position: relative;
 }
 
 .nav a {
