@@ -90,4 +90,23 @@ nav #links li a {
   text-decoration: none;
   font-size: 1.5rem;
 }
+
+#posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#posts main {
+  width: 50%;
+}
+
+#posts .index-post {
+  width: 100%;
+}
+
+#posts aside {
+  width: 30%;
+  background: blue;
+}
 /*# sourceMappingURL=style.css.map */
