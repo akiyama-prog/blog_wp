@@ -89,15 +89,23 @@ nav{
 // index page
 #posts{
     display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
     main{
-        width: 50%;
+        width: 65%;
     }
     .index-post{
         width: 100%;
+        border: $main-color-gray 1px solid;
+        text-align: center;
+        padding: 0 1rem;
+        margin-top: 2rem;
     }
 
     aside{
         width: 30%;
-        background: blue;
+        background: red;
+        margin-top: 2rem;
     }
 }
