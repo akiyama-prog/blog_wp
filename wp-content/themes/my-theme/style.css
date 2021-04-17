@@ -95,18 +95,33 @@ nav #links li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#posts a {
+  text-decoration: none;
+  color: #646161;
 }
 
 #posts main {
-  width: 50%;
+  width: 65%;
 }
 
 #posts .index-post {
   width: 100%;
+  border: #BCB5B5 1px solid;
+  text-align: center;
+  padding: 0 1rem;
+  margin-top: 2rem;
 }
 
 #posts aside {
   width: 30%;
-  background: blue;
+  background: red;
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
