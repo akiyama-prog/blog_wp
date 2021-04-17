@@ -14,7 +14,7 @@ body {
 header {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   background: url("./img/mountains.JPG");
   background-size: cover;
   background-position: center;
@@ -81,13 +81,13 @@ nav {
   width: 100%;
   border: #BCB5B5 1px solid;
   text-align: center;
-  padding: 0 1rem;
-  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
 }
 
 #posts aside {
   width: 30%;
   background: red;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
