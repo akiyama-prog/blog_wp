@@ -12,12 +12,33 @@ body {
 
 /* header */
 header {
-  width: 80%;
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("./img/mountains.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: black;
+  opacity: .5;
+  display: block;
 }
 
 .title {
-  color: #EF866B;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
   border-bottom: none;
   text-decoration: none;
 }
