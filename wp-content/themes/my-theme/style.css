@@ -54,6 +54,7 @@ header a:hover {
 /* navbar */
 nav {
   position: absolute;
+  font-size: 1.2rem;
 }
 
 #posts {
