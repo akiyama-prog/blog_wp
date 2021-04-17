@@ -35,76 +35,25 @@ header{
         opacity: .5;
         display: block;
     }
+    a{
+        color:white;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+    }
 }
 .title{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    color:white;
     border-bottom: none;
     text-decoration: none;
 }
 /* navbar */
 nav{
-    width: 100%;
-    background:$main-color-gray;
-    //アコーディオンメニュー
-    .dropdown:hover #links li{
-        overflow: visible;
-        height: 38px;
-        border-bottom: 1px solid #fff;
-        background: white;
-        border-bottom: dotted 1px $main-color-gray;
-        &:hover{
-            background: $main-color-gray;
-            a{
-                color: white;
-            }
-        }
-    }
-    #links{
-        list-style: none;
-        position: absolute;
-        top: 130%;
-        left: 0;
-        margin: 0;
-        padding: 0;
-    }
-    #links li{
-        overflow: hidden;
-        width: 250%;
-        height: 0;
-        -moz-transition: .2s;
-        -webkit-transition: .2s;
-        -o-transition: .2s;
-        -ms-transition: .2s;
-        transition: .2s;
-        margin: 0;
-        a{
-            padding: 20px 15px;
-            color: $main-color-gray;
-            text-align: left;
-            font-size: 1.5rem;
-            font-weight: normal;
-        }
-    }
-}
-.nav{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    width: 80%;
-    li{
-        margin: .8rem 4rem .8rem 0;
-        position: relative;
-    }
-    a{
-        color: white;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
+    position: absolute;
 }
 // index page
 #posts{
