@@ -10,6 +10,7 @@ Version: 1.0
 
 $main-color-gray:#BCB5B5;
 $main-color-orange:#EF866B;
+$letter:rgb(100, 97, 97);
 
 body{
     margin: 0;
@@ -92,6 +93,10 @@ nav{
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    a{
+        text-decoration: none;
+        color: $letter;
+    }
     main{
         width: 65%;
     }

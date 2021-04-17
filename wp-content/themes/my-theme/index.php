@@ -18,8 +18,11 @@
                             <a href="<?php the_permalink() ?>">
                                 <h2><?php the_title() ?></h2>
                                 <p><?php $cat = get_the_category();
-                                    echo $cat[0]->cat_name; ?><br><?php the_post_thumbnail(); ?><br>
-                                    <?php the_excerpt() ?></p>
+                                    echo $cat[0]->cat_name; ?></p>
+                                <p>
+                                    <?php the_post_thumbnail('thumbnail'); ?>
+                                </p>
+                                <?php the_excerpt() ?>
                             </a>
                         </article>
                     <?php endwhile; ?>
