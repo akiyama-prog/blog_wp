@@ -12,83 +12,49 @@ body {
 
 /* header */
 header {
-  width: 80%;
-  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+  background: url("./img/mountains.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: black;
+  opacity: .5;
+  display: block;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .title {
-  color: #EF866B;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
   border-bottom: none;
   text-decoration: none;
 }
 
 /* navbar */
 nav {
-  width: 100%;
-  background: #BCB5B5;
-}
-
-nav .dropdown:hover #links li {
-  overflow: visible;
-  height: 38px;
-  border-bottom: 1px solid #fff;
-  background: white;
-  border-bottom: dotted 1px #BCB5B5;
-}
-
-nav .dropdown:hover #links li:hover {
-  background: #BCB5B5;
-}
-
-nav .dropdown:hover #links li:hover a {
-  color: white;
-}
-
-nav #links {
-  list-style: none;
   position: absolute;
-  top: 130%;
-  left: 0;
-  margin: 0;
-  padding: 0;
-}
-
-nav #links li {
-  overflow: hidden;
-  width: 250%;
-  height: 0;
-  -webkit-transition: .2s;
-  transition: .2s;
-  margin: 0;
-}
-
-nav #links li a {
-  padding: 20px 15px;
-  color: #BCB5B5;
-  text-align: left;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  width: 80%;
-}
-
-.nav li {
-  margin: .8rem 4rem .8rem 0;
-  position: relative;
-}
-
-.nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #posts {
@@ -115,13 +81,13 @@ nav #links li a {
   width: 100%;
   border: #BCB5B5 1px solid;
   text-align: center;
-  padding: 0 1rem;
-  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
 }
 
 #posts aside {
   width: 30%;
   background: red;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */
