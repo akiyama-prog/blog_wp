@@ -14,10 +14,10 @@ body {
 header {
   position: relative;
   width: 100%;
-  min-height: 70vh;
+  min-height: 40vh;
   background: url("./img/mountains.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom 43%;
 }
 
 header::before {
@@ -57,7 +57,7 @@ nav {
   font-size: 1.2rem;
 }
 
-#posts {
+#indexPosts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,30 +68,50 @@ nav {
   margin: 0 auto;
 }
 
-#posts a {
+#indexPosts a {
   text-decoration: none;
   color: #646161;
 }
 
-#posts main {
+#indexPosts main {
   width: 65%;
 }
 
-#posts .index-post {
+#indexPosts .index-post {
   width: 100%;
-  border: #BCB5B5 1px solid;
+  border: #f5efef 1px solid;
   text-align: center;
   padding: 1.5rem 1rem;
   margin-top: 3rem;
 }
 
-#posts .thumbnail {
+#indexPosts .thumbnail {
   width: 100%;
 }
 
-#posts aside {
+#indexPosts aside {
   width: 30%;
   background: red;
+  margin-top: 3rem;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin-top: 1rem;
+  background: #f5efef;
+  padding: 1%;
+}
+
+.singlePostTitle p {
+  margin-bottom: 0;
+}
+
+.singlePostTitle .category {
+  font-size: .8rem;
+}
+
+.single-post {
+  width: 100%;
   margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

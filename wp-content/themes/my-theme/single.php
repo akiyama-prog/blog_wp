@@ -2,19 +2,39 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="<?php echo get_stylesheet_uri(); ?>">
-    <title>あきなのブログ</title>
+    <?php get_header(); ?>
 </head>
 
 <body>
-    <?php get_header(); ?>
+    <?php get_template_part('includes/header'); ?>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
-            <h1><?php the_title(); ?></h1>
-            <p><?php the_time('Y-m-d'); ?></p>
-            <article><?php the_content(); ?></article>
+            <div class='singlePostTitle'>
+                <p><?php the_time('Y-m-d'); ?></p>
+                <h2><?php the_title(); ?></h2>
+                <p class='category'><?php $cat = get_the_category();
+                                    echo $cat[0]->cat_name; ?></p>
+            </div>
+            <div id='indexPosts'>
+                <main>
+                    <article class='single-post'>
+                        <?php
+                        if (has_post_thumbnail()) :
+                            the_post_thumbnail('thumbnail', 'class=thumbnail');
+                        else :
+                        ?>
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/no-image.png" alt="No Image" class='thumbnail' />
+                        <?php endif; ?>
+                        <p>
+                            <?php the_content() ?>
+                        </p>
+                    </article>
+                </main>
+                <!-- サイドバー -->
+                <aside>
+                    <div></div>
+                </aside>
+            </div>
         <?php endwhile; ?>
     <?php endif; ?>
 </body>

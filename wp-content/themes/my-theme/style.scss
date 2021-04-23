@@ -8,22 +8,21 @@ Author URI:
 Version: 1.0
 */
 
-$main-color-gray:#BCB5B5;
+$main-color-gray:#f5efef;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
 
 body{
     margin: 0;
 }
-
 /* header */
 header{
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 40vh;
     background: url("./img/mountains.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: center bottom 43%;
     &::before{
         content: '';
         position: absolute;
@@ -58,7 +57,7 @@ nav{
     font-size: 1.2rem;
 }
 // index page
-#posts{
+#indexPosts{
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -85,4 +84,21 @@ nav{
         background: red;
         margin-top: 3rem;
     }
+}
+// single page
+.singlePostTitle{
+    text-align: center;
+    margin-top: 1rem;
+    background: $main-color-gray;
+    padding: 1%;
+    p{
+        margin-bottom: 0;
+    }
+    .category{
+        font-size: .8rem;
+    }
+}
+.single-post{
+    width: 100%;
+    margin-top: 3rem;
 }
