@@ -79,7 +79,7 @@ nav {
 
 #indexPosts .index-post {
   width: 100%;
-  border: #BCB5B5 1px solid;
+  border: #e2dddd 1px solid;
   text-align: center;
   padding: 1.5rem 1rem;
   margin-top: 3rem;
@@ -95,10 +95,24 @@ nav {
   margin-top: 3rem;
 }
 
+.singlePostTitle {
+  text-align: center;
+  margin-top: 1rem;
+  background: #e2dddd;
+  padding: 1%;
+}
+
+.singlePostTitle p {
+  margin-bottom: 0;
+}
+
+.singlePostTitle .category {
+  font-size: .8rem;
+}
+
 .single-post {
   width: 100%;
   text-align: center;
-  padding: 1.5rem 1rem;
   margin-top: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

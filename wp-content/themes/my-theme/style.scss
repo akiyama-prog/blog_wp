@@ -8,7 +8,7 @@ Author URI:
 Version: 1.0
 */
 
-$main-color-gray:#BCB5B5;
+$main-color-gray:#e2dddd;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
 
@@ -86,10 +86,20 @@ nav{
     }
 }
 // single page
-
-    .single-post{
-        width: 100%;
-        text-align: center;
-        padding: 1.5rem 1rem;
-        margin-top: 3rem;
+.singlePostTitle{
+    text-align: center;
+    margin-top: 1rem;
+    background: $main-color-gray;
+    padding: 1%;
+    p{
+        margin-bottom: 0;
     }
+    .category{
+        font-size: .8rem;
+    }
+}
+.single-post{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
