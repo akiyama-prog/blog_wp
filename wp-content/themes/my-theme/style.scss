@@ -43,6 +43,7 @@ header{
         }
     }
 }
+
 .title{
     top: 50%;
     left: 50%;
@@ -76,7 +77,9 @@ nav{
         padding: 1.5rem 1rem;
         margin-top: 3rem;
     }
-
+    .thumbnail{
+        width: 100%;
+    }
     aside{
         width: 30%;
         background: red;
