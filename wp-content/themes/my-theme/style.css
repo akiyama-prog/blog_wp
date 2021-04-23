@@ -94,4 +94,11 @@ nav {
   background: red;
   margin-top: 3rem;
 }
+
+.single-post {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+}
 /*# sourceMappingURL=style.css.map */

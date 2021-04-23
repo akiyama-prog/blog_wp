@@ -7,11 +7,11 @@
 
 <body>
     <?php get_template_part('includes/header'); ?>
-    <div id='post'>
+    <div id='indexPosts'>
         <main>
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
-                    <article class='index-post'>
+                    <article class='single-post'>
                         <h2><?php the_title(); ?></h2>
                         <p><?php the_time('Y-m-d'); ?></p>
                         <p><?php $cat = get_the_category();
@@ -30,6 +30,10 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </main>
+        <!-- サイドバー -->
+        <aside>
+            <div></div>
+        </aside>
     </div>
 </body>
 
