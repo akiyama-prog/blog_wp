@@ -19,7 +19,7 @@
                                 <p><?php $cat = get_the_category();
                                     echo $cat[0]->cat_name; ?></p>
                                 <p>
-                                    <?php the_post_thumbnail('thumbnail'); ?>
+                                    <?php the_post_thumbnail('thumbnail', 'class=thumbnail'); ?>
                                 </p>
                                 <?php the_excerpt() ?>
                             </a>

@@ -85,6 +85,10 @@ nav {
   margin-top: 3rem;
 }
 
+#posts .thumbnail {
+  width: 100%;
+}
+
 #posts aside {
   width: 30%;
   background: red;
