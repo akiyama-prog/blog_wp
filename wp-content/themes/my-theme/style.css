@@ -57,7 +57,7 @@ nav {
   font-size: 1.2rem;
 }
 
-#posts {
+#indexPosts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,16 +68,16 @@ nav {
   margin: 0 auto;
 }
 
-#posts a {
+#indexPosts a {
   text-decoration: none;
   color: #646161;
 }
 
-#posts main {
+#indexPosts main {
   width: 65%;
 }
 
-#posts .index-post {
+#indexPosts .index-post {
   width: 100%;
   border: #BCB5B5 1px solid;
   text-align: center;
@@ -85,11 +85,11 @@ nav {
   margin-top: 3rem;
 }
 
-#posts .thumbnail {
+#indexPosts .thumbnail {
   width: 100%;
 }
 
-#posts aside {
+#indexPosts aside {
   width: 30%;
   background: red;
   margin-top: 3rem;

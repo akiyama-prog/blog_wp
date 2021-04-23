@@ -8,7 +8,7 @@
 <body>
     <div id="container">
         <?php get_template_part('includes/header'); ?>
-        <div id='posts'>
+        <div id='indexPosts'>
             <main>
                 <!-- 記事一覧 -->
                 <?php if (have_posts()) : ?>
