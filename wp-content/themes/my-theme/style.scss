@@ -15,15 +15,14 @@ $letter:rgb(100, 97, 97);
 body{
     margin: 0;
 }
-
 /* header */
 header{
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 40vh;
     background: url("./img/mountains.JPG");
     background-size: cover;
-    background-position: center;
+    background-position: center bottom 43%;
     &::before{
         content: '';
         position: absolute;
