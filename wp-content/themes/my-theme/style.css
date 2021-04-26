@@ -91,8 +91,11 @@ nav {
 
 #indexPosts aside {
   width: 30%;
-  background: red;
   margin-top: 3rem;
+}
+
+#indexPosts aside li {
+  list-style: none;
 }
 
 .singlePostTitle, .category-name {

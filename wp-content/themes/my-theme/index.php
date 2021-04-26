@@ -37,7 +37,7 @@
             </main>
             <!-- サイドバー -->
             <aside>
-                <div></div>
+                <?php if (dynamic_sidebar('main-sidbar')) : else : endif; ?>
             </aside>
         </div>
 

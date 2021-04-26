@@ -81,8 +81,10 @@ nav{
     }
     aside{
         width: 30%;
-        background: red;
         margin-top: 3rem;
+        li{
+            list-style: none;
+        }
     }
 }
 // single page
