@@ -95,18 +95,18 @@ nav {
   margin-top: 3rem;
 }
 
-.singlePostTitle {
+.singlePostTitle, .category-name {
   text-align: center;
   margin-top: 1rem;
   background: #f5efef;
   padding: 1%;
 }
 
-.singlePostTitle p {
+.singlePostTitle p, .category-name p {
   margin-bottom: 0;
 }
 
-.singlePostTitle .category {
+.singlePostTitle .category, .category-name .category {
   font-size: .8rem;
 }
 
