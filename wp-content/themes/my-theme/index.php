@@ -14,7 +14,7 @@
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <article class='index-post'>
-                            <a href="<?php the_permalink() ?>">
+                            <a href="<?php the_permalink() ?>" class="article-title">
                                 <h2><?php the_title() ?></h2>
                                 <p><?php $cat = get_the_category();
                                     echo $cat[0]->cat_name; ?></p>

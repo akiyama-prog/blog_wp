@@ -29,6 +29,7 @@
                             <?php the_content() ?>
                         </p>
                     </article>
+                    <?php get_template_part('includes/sns'); ?>
                 </main>
                 <!-- サイドバー -->
                 <aside>
