@@ -185,6 +185,12 @@ footer{
         list-style: none;
         padding: 1.5rem;
     }
+    .copyright{
+        text-align: center;
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width:768px){

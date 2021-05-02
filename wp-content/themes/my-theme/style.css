@@ -201,6 +201,13 @@ footer .footer-profile {
   padding: 1.5rem;
 }
 
+footer .copyright {
+  text-align: center;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .share li {
     -webkit-box-sizing: border-box;
