@@ -183,6 +183,24 @@ nav {
   background-color: #008fde;
 }
 
+footer {
+  background: #f5efef;
+  margin-top: 2rem;
+}
+
+footer p {
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 30%;
+  margin: 1.5rem auto;
+}
+
+footer .footer-profile {
+  width: 30%;
+  list-style: none;
+  padding: 1.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .share li {
     -webkit-box-sizing: border-box;
