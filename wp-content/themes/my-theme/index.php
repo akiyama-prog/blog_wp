@@ -25,9 +25,7 @@
                                 ?>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/no-image.png" alt="No Image" class='thumbnail' />
                                 <?php endif; ?>
-                                <p>
-                                    <?php the_excerpt() ?>
-                                </p>
+                                <?php the_excerpt() ?>
                             </a>
                         </article>
                     <?php endwhile; ?>
