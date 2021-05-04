@@ -26,7 +26,6 @@ body{
 header{
     position: relative;
     width: 100%;
-    min-height: 40vh;
     background: url("./img/mountains.JPG");
     background-size: cover;
     background-position: center bottom 43%;
@@ -47,6 +46,12 @@ header{
             color: white;
             text-decoration: none;
         }
+    }
+    @media screen and (min-width:769px){//PC
+        min-height: 40vh;
+    }
+    @media screen and (max-width:768px){//SP
+        height: 200px;
     }
 }
 
