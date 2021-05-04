@@ -9,8 +9,8 @@
     <div id="container">
         <?php get_template_part('includes/header'); ?>
         <div class='category-name'>
-            <h3><?php $cat = get_the_category();
-                echo $cat[0]->cat_name; ?></h3>
+            <h3 class='category'><?php $cat = get_the_category();
+                                    echo $cat[0]->cat_name; ?></h3>
         </div>
         <div id='indexPosts'>
             <main>

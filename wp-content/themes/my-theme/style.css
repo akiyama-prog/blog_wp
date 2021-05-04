@@ -165,10 +165,6 @@ nav button {
   margin-bottom: 0;
 }
 
-.singlePostTitle .category, .category-name .category {
-  font-size: .8rem;
-}
-
 .single-post {
   width: 100%;
 }
@@ -181,7 +177,7 @@ nav button {
     margin-bottom: 0;
   }
   .singlePostTitle .category, .category-name .category {
-    font-size: .8rem;
+    font-size: 1.5rem;
   }
   .single-post {
     width: 100%;
@@ -197,7 +193,7 @@ nav button {
     margin-bottom: 0;
   }
   .singlePostTitle .category, .category-name .category {
-    font-size: .8rem;
+    font-size: 1.2rem;
   }
   .single-post {
     width: 100%;
