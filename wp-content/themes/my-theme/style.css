@@ -101,9 +101,19 @@ nav button {
   color: #646161;
 }
 
+#indexPosts .index-post {
+  width: 100%;
+  border: #f5efef 1px solid;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
 @media screen and (min-width: 769px) {
   #indexPosts main {
     width: 65%;
+  }
+  #indexPosts .index-post {
+    margin-top: 3rem;
   }
 }
 
@@ -112,14 +122,9 @@ nav button {
     margin: 0 auto;
     width: 90%;
   }
-}
-
-#indexPosts .index-post {
-  width: 100%;
-  border: #f5efef 1px solid;
-  text-align: center;
-  padding: 1.5rem 1rem;
-  margin-top: 3rem;
+  #indexPosts .index-post {
+    margin-top: 1rem;
+  }
 }
 
 #indexPosts .thumbnail {
@@ -143,10 +148,17 @@ nav button {
 }
 
 .singlePostTitle, .category-name {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 1rem;
   background: #f5efef;
-  padding: 1%;
 }
 
 .singlePostTitle p, .category-name p {
@@ -159,7 +171,38 @@ nav button {
 
 .single-post {
   width: 100%;
-  margin-top: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+  .singlePostTitle, .category-name {
+    height: 5rem;
+  }
+  .singlePostTitle p, .category-name p {
+    margin-bottom: 0;
+  }
+  .singlePostTitle .category, .category-name .category {
+    font-size: .8rem;
+  }
+  .single-post {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .singlePostTitle, .category-name {
+    height: 4rem;
+  }
+  .singlePostTitle p, .category-name p {
+    margin-bottom: 0;
+  }
+  .singlePostTitle .category, .category-name .category {
+    font-size: .8rem;
+  }
+  .single-post {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
 
 .fa-hatena:before {

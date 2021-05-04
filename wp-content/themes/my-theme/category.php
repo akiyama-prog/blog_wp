@@ -10,7 +10,7 @@
         <?php get_template_part('includes/header'); ?>
         <div class='category-name'>
             <h3><?php $cat = get_the_category();
-                echo $cat[0]->cat_name; ?>に関する記事</h3>
+                echo $cat[0]->cat_name; ?></h3>
         </div>
         <div id='indexPosts'>
             <main>
@@ -18,7 +18,7 @@
                 <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <article class='index-post'>
-                            <a href="<?php the_permalink() ?>">
+                            <a href="<?php the_permalink() ?>" class='article-title'>
                                 <h2><?php the_title() ?></h2>
                                 <p><?php $cat = get_the_category();
                                     echo $cat[0]->cat_name; ?></p>
@@ -29,9 +29,7 @@
                                 ?>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/no-image.png" alt="No Image" class='thumbnail' />
                                 <?php endif; ?>
-                                <p>
-                                    <?php the_excerpt() ?>
-                                </p>
+                                <?php the_excerpt() ?>
                             </a>
                         </article>
                     <?php endwhile; ?>

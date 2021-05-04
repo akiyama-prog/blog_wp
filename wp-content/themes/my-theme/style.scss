@@ -84,9 +84,18 @@ nav{
         text-decoration: none;
         color: $letter;
     }
+    .index-post{
+        width: 100%;
+        border: $main-color-gray 1px solid;
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
     @media screen and (min-width:769px){//PC
         main{
             width: 65%;
+        }
+        .index-post{
+            margin-top: 3rem;
         }
     }
     @media screen and (max-width:768px){//SP
@@ -94,13 +103,9 @@ nav{
             margin: 0 auto;
             width: 90%;
         }
-    }
-    .index-post{
-        width: 100%;
-        border: $main-color-gray 1px solid;
-        text-align: center;
-        padding: 1.5rem 1rem;
-        margin-top: 3rem;
+        .index-post{
+            margin-top: 1rem;
+        }
     }
     .thumbnail{
         width: 100%;
@@ -122,10 +127,11 @@ nav{
 }
 // single page
 .singlePostTitle, .category-name{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     background: $main-color-gray;
-    padding: 1%;
     p{
         margin-bottom: 0;
     }
@@ -135,9 +141,37 @@ nav{
 }
 .single-post{
     width: 100%;
-    margin-top: 3rem;
 }
-
+@media screen and (min-width:769px){//PC
+    .singlePostTitle, .category-name{
+        height: 5rem;
+        p{
+            margin-bottom: 0;
+        }
+        .category{
+            font-size: .8rem;
+        }
+    }
+    .single-post{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width:768px){//SP
+    .singlePostTitle, .category-name{
+        height: 4rem;
+        p{
+            margin-bottom: 0;
+        }
+        .category{
+            font-size: .8rem;
+        }
+    }
+    .single-post{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
 //sns share buttons
 .fa-hatena:before {
     font-family: Verdana;
