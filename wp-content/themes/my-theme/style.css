@@ -108,12 +108,23 @@ nav button {
   padding: 1.5rem 1rem;
 }
 
+#indexPosts .thumbnail {
+  width: 100%;
+}
+
 @media screen and (min-width: 769px) {
   #indexPosts main {
     width: 65%;
   }
   #indexPosts .index-post {
     margin-top: 3rem;
+  }
+  #indexPosts aside {
+    width: 30%;
+    margin-top: 3rem;
+  }
+  #indexPosts aside li {
+    list-style: none;
   }
 }
 
@@ -125,23 +136,9 @@ nav button {
   #indexPosts .index-post {
     margin-top: 1rem;
   }
-}
-
-#indexPosts .thumbnail {
-  width: 100%;
-}
-
-@media screen and (min-width: 769px) {
-  #indexPosts aside {
-    width: 30%;
-    margin-top: 3rem;
+  #indexPosts .thumbnail {
+    height: auto;
   }
-  #indexPosts aside li {
-    list-style: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   #indexPosts aside {
     display: none;
   }

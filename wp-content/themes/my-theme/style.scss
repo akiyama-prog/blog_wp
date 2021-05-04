@@ -90,12 +90,22 @@ nav{
         text-align: center;
         padding: 1.5rem 1rem;
     }
+    .thumbnail{
+        width: 100%;
+    }
     @media screen and (min-width:769px){//PC
         main{
             width: 65%;
         }
         .index-post{
             margin-top: 3rem;
+        }
+        aside{
+            width: 30%;
+            margin-top: 3rem;
+            li{
+                list-style: none;
+            }
         }
     }
     @media screen and (max-width:768px){//SP
@@ -106,20 +116,9 @@ nav{
         .index-post{
             margin-top: 1rem;
         }
-    }
-    .thumbnail{
-        width: 100%;
-    }
-    @media screen and (min-width:769px){//PC
-        aside{
-            width: 30%;
-            margin-top: 3rem;
-            li{
-                list-style: none;
-            }
+        .thumbnail{
+            height: auto;
         }
-    }
-    @media screen and (max-width:768px){//SP
         aside{
             display: none;
         }
