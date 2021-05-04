@@ -74,16 +74,26 @@ nav{
 }
 // index page
 #indexPosts{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
     margin: 0 auto;
+    @media screen and (min-width:769px){//PC
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
     .article-title{
         text-decoration: none;
         color: $letter;
     }
-    main{
-        width: 65%;
+    @media screen and (min-width:769px){//PC
+        main{
+            width: 65%;
+        }
+    }
+    @media screen and (max-width:768px){//SP
+        main{
+            margin: 0 auto;
+            width: 90%;
+        }
     }
     .index-post{
         width: 100%;
@@ -95,11 +105,18 @@ nav{
     .thumbnail{
         width: 100%;
     }
-    aside{
-        width: 30%;
-        margin-top: 3rem;
-        li{
-            list-style: none;
+    @media screen and (min-width:769px){//PC
+        aside{
+            width: 30%;
+            margin-top: 3rem;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    @media screen and (max-width:768px){//SP
+        aside{
+            display: none;
         }
     }
 }

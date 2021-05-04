@@ -81,14 +81,19 @@ nav button {
 }
 
 #indexPosts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 80%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) {
+  #indexPosts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 80%;
+  }
 }
 
 #indexPosts .article-title {
@@ -96,8 +101,17 @@ nav button {
   color: #646161;
 }
 
-#indexPosts main {
-  width: 65%;
+@media screen and (min-width: 769px) {
+  #indexPosts main {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #indexPosts main {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
 
 #indexPosts .index-post {
@@ -112,13 +126,20 @@ nav button {
   width: 100%;
 }
 
-#indexPosts aside {
-  width: 30%;
-  margin-top: 3rem;
+@media screen and (min-width: 769px) {
+  #indexPosts aside {
+    width: 30%;
+    margin-top: 3rem;
+  }
+  #indexPosts aside li {
+    list-style: none;
+  }
 }
 
-#indexPosts aside li {
-  list-style: none;
+@media screen and (max-width: 768px) {
+  #indexPosts aside {
+    display: none;
+  }
 }
 
 .singlePostTitle, .category-name {
