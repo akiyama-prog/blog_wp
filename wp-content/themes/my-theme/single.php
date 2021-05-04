@@ -12,8 +12,8 @@
             <div class='singlePostTitle'>
                 <p><?php the_time('Y-m-d'); ?></p>
                 <h2><?php the_title(); ?></h2>
-                <p class='category'><?php $cat = get_the_category();
-                                    echo $cat[0]->cat_name; ?></p>
+                <p><?php $cat = get_the_category();
+                    echo $cat[0]->cat_name; ?></p>
             </div>
             <div id='indexPosts'>
                 <main>

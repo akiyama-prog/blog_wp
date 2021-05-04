@@ -144,7 +144,7 @@ nav button {
   }
 }
 
-.singlePostTitle, .category-name {
+.category-name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +154,19 @@ nav button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.singlePostTitle {
+  text-align: center;
+  padding: 1rem;
+}
+
+.singlePostTitle h2 {
+  font-size: 1.7rem;
+  margin-top: 8px;
+}
+
+.singlePostTitle, .category-name {
   margin-top: 1rem;
   background: #f5efef;
 }
@@ -167,7 +180,7 @@ nav button {
 }
 
 @media screen and (min-width: 769px) {
-  .singlePostTitle, .category-name {
+  .category-name {
     height: 5rem;
   }
   .singlePostTitle p, .category-name p {
@@ -183,7 +196,7 @@ nav button {
 }
 
 @media screen and (max-width: 768px) {
-  .singlePostTitle, .category-name {
+  .category-name {
     height: 4rem;
   }
   .singlePostTitle p, .category-name p {

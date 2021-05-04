@@ -125,10 +125,20 @@ nav{
     }
 }
 // single page
-.singlePostTitle, .category-name{
+.category-name{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.singlePostTitle{
+    text-align: center;
+    padding: 1rem;
+    h2{
+        font-size: 1.7rem;
+        margin-top: 8px;
+    }
+}
+.singlePostTitle, .category-name{
     margin-top: 1rem;
     background: $main-color-gray;
     p{
@@ -139,8 +149,11 @@ nav{
     width: 100%;
 }
 @media screen and (min-width:769px){//PC
-    .singlePostTitle, .category-name{
+    .category-name{
         height: 5rem;
+    }
+
+    .singlePostTitle, .category-name{
         p{
             margin-bottom: 0;
         }
@@ -154,8 +167,10 @@ nav{
     }
 }
 @media screen and (max-width:768px){//SP
-    .singlePostTitle, .category-name{
+    .category-name{
         height: 4rem;
+    }
+    .singlePostTitle, .category-name{
         p{
             margin-bottom: 0;
         }
