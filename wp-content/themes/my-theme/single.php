@@ -36,6 +36,7 @@
                     <?php if (dynamic_sidebar('main-sidbar')) : else : endif; ?>
                 </aside>
             </div>
+            <?php get_template_part('footer'); ?>
         <?php endwhile; ?>
     <?php endif; ?>
 </body>

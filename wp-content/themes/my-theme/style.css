@@ -289,7 +289,6 @@ footer p {
 }
 
 footer .footer-profile {
-  width: 30%;
   list-style: none;
   padding: 1.5rem;
 }
@@ -299,6 +298,12 @@ footer .copyright {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+  footer .footer-profile {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 768px) {

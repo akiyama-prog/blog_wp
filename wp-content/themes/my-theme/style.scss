@@ -248,7 +248,7 @@ nav{
 .hatena a {
     background-color: #008fde;
 }
-
+//フッター
 footer{
     background: $main-color-gray;
     margin-top: 2rem;
@@ -259,7 +259,6 @@ footer{
         margin: 1.5rem auto;
     }
     .footer-profile{
-        width: 30%;
         list-style: none;
         padding: 1.5rem;
     }
@@ -268,6 +267,13 @@ footer{
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 2rem;
+    }
+}
+@media screen and (min-width:769px){//PC
+    footer{
+        .footer-profile{
+            width: 30%;
+        }
     }
 }
 
