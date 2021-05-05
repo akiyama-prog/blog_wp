@@ -74,53 +74,115 @@ nav{
 }
 // index page
 #indexPosts{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
     margin: 0 auto;
+    @media screen and (min-width:769px){//PC
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
     .article-title{
         text-decoration: none;
         color: $letter;
-    }
-    main{
-        width: 65%;
     }
     .index-post{
         width: 100%;
         border: $main-color-gray 1px solid;
         text-align: center;
         padding: 1.5rem 1rem;
-        margin-top: 3rem;
     }
     .thumbnail{
         width: 100%;
     }
-    aside{
-        width: 30%;
-        margin-top: 3rem;
-        li{
-            list-style: none;
+    @media screen and (min-width:769px){//PC
+        main{
+            width: 65%;
+        }
+        .index-post{
+            margin-top: 3rem;
+        }
+        aside{
+            width: 30%;
+            margin-top: 3rem;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    @media screen and (max-width:768px){//SP
+        main{
+            margin: 0 auto;
+            width: 90%;
+        }
+        .index-post{
+            margin-top: 1rem;
+        }
+        .thumbnail{
+            height: auto;
+        }
+        aside{
+            display: none;
         }
     }
 }
 // single page
-.singlePostTitle, .category-name{
+.category-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singlePostTitle{
     text-align: center;
+    padding: 1rem;
+    h2{
+        font-size: 1.7rem;
+        margin-top: 8px;
+    }
+}
+.singlePostTitle, .category-name{
     margin-top: 1rem;
     background: $main-color-gray;
-    padding: 1%;
     p{
         margin-bottom: 0;
-    }
-    .category{
-        font-size: .8rem;
     }
 }
 .single-post{
     width: 100%;
-    margin-top: 3rem;
 }
+@media screen and (min-width:769px){//PC
+    .category-name{
+        height: 5rem;
+    }
 
+    .singlePostTitle, .category-name{
+        p{
+            margin-bottom: 0;
+        }
+        .category{
+            font-size: 1.5rem;
+        }
+    }
+    .single-post{
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width:768px){//SP
+    .category-name{
+        height: 4rem;
+    }
+    .singlePostTitle, .category-name{
+        p{
+            margin-bottom: 0;
+        }
+        .category{
+            font-size: 1.2rem;
+        }
+    }
+    .single-post{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
 //sns share buttons
 .fa-hatena:before {
     font-family: Verdana;
