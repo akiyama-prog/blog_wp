@@ -252,6 +252,9 @@ nav{
 footer{
     background: $main-color-gray;
     margin-top: 2rem;
+    .footer{
+        display: flex;
+    }
     p{
         border-bottom: 2px solid black;
         text-align: center;
@@ -267,6 +270,19 @@ footer{
         border-bottom: none;
         margin-bottom: 0;
         padding-bottom: 2rem;
+    }
+    li{
+        list-style: none;
+    }
+    .fixed-page{
+        text-align: center;
+        a{
+            text-align: center;
+            color: black;
+            &:hover{
+                color: black;
+            }
+        }
     }
 }
 @media screen and (min-width:769px){//PC
