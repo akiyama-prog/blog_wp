@@ -299,13 +299,6 @@ footer .footer-profile {
   padding: 1.5rem;
 }
 
-footer .copyright {
-  text-align: center;
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 2rem;
-}
-
 footer li {
   list-style: none;
 }
@@ -321,6 +314,11 @@ footer .fixed-page a {
 
 footer .fixed-page a:hover {
   color: black;
+}
+
+.copyright {
+  text-align: center;
+  background-color: white;
 }
 
 @media screen and (min-width: 769px) {

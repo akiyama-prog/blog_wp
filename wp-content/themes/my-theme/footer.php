@@ -10,5 +10,5 @@
             'theme_location'  => 'footer',
         )); ?>
     </div>
-    <p class='copyright'><small>©️２０２１ Akina</small></p>
 </footer>
+<p class='copyright'><small>©️２０２１ Akina</small></p>
