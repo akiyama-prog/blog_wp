@@ -5,10 +5,11 @@
             <?php if (dynamic_sidebar('main-sidbar')) : else : endif; ?>
         </div>
     </div>
+    <!-- お問い合わせとプライバシーポリシー -->
     <div class='fixed-page'>
         <?php wp_nav_menu(array(
             'theme_location'  => 'footer',
         )); ?>
+        <small>©️２０２１ Akina</small>
     </div>
-    <p class='copyright'><small>©️２０２１ Akina</small></p>
 </footer>
