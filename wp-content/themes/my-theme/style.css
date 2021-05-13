@@ -345,4 +345,9 @@ footer .fixed-page a:hover {
     display: none;
   }
 }
+
+.code {
+  background-color: #f5efef;
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */

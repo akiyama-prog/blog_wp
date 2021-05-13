@@ -47,6 +47,7 @@ header{
             text-decoration: none;
         }
     }
+
     @media screen and (min-width:769px){//PC
         min-height: 40vh;
     }
@@ -318,4 +319,10 @@ footer{
     .facebooklink i, .tweet i, .hatena i {
         display: none;
     }
+}
+
+//投稿記事内のcss装飾
+.code{
+    background-color: $main-color-gray;
+    padding: 1rem;
 }
