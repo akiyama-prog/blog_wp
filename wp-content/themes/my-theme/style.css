@@ -59,6 +59,20 @@ header a:hover {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .breadcrumbs {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumbs {
+    display: none;
+  }
+}
+
 .title {
   top: 50%;
   left: 50%;
