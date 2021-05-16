@@ -286,8 +286,9 @@ footer li {
 }
 
 footer .fixed-page {
-  text-align: center;
   padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 footer .fixed-page a {
@@ -296,6 +297,10 @@ footer .fixed-page a {
 
 footer .fixed-page a:hover {
   color: black;
+}
+
+footer .fixed-page ul {
+  padding-left: 0;
 }
 
 @media screen and (min-width: 769px) {

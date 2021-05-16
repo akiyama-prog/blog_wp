@@ -10,6 +10,6 @@
         <?php wp_nav_menu(array(
             'theme_location'  => 'footer',
         )); ?>
-        <small>©️２０２１ Akina</small>
+        <small class="copyright">©️２０２１ Akina</small>
     </div>
 </footer>

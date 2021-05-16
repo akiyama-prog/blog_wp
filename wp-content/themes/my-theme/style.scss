@@ -257,13 +257,17 @@ footer{
         list-style: none;
     }
     .fixed-page{
-        text-align: center;
         padding: 1rem;
+        width: 80%;
+        margin: 0 auto;
         a{
             color: black;
             &:hover{
                 color: black;
             }
+        }
+        ul{
+            padding-left: 0;
         }
     }
 }
