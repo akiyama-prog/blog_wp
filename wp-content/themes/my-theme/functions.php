@@ -21,3 +21,5 @@ function widgets_init()
 }
 add_action('init', 'init_func');
 add_action('widgets_init', 'widgets_init');
+
+add_theme_support('title-tag');
