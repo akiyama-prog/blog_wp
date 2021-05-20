@@ -342,3 +342,12 @@ footer{
     background-color: $main-color-gray;
     padding: 1rem;
 }
+//目次
+.index{
+    background-color: $main-color-gray;
+    padding: 1rem;
+    line-height: 2rem;
+    a{
+        color: black;
+    }
+}

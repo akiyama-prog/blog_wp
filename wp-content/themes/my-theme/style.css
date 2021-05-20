@@ -369,4 +369,14 @@ footer .fixed-page ul {
   background-color: #f5efef;
   padding: 1rem;
 }
+
+.index {
+  background-color: #f5efef;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+.index a {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
