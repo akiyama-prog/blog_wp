@@ -4,16 +4,16 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="nav-bar">
         <ul class="navbar-nav mr-0">
-            <li class='nav-item'><a class="nav-link" href="/blog/category/programming">Programming</a></li>
+            <li class='nav-item'><a class="nav-link" href="/aklog/category/programming">Programming</a></li>
             <li class='nav-item dropdown'><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id='navbarDropdown' aria-haspopup="true" aria-expanded="false" role="button">Travel</a>
                 <div class='dropdown-menu' aria-labelledby="navbarDropdown">
-                    <a class='dropdown-item' href="/blog/category/travel/canada">Canada</a>
+                    <a class='dropdown-item' href="/aklog/category/travel/canada">Canada</a>
                     <div class='dropdown-divider'></div>
-                    <a class='dropdown-item' href="/blog/category/travel/australia">Australia</a>
+                    <a class='dropdown-item' href="/aklog/category/travel/australia">Australia</a>
                 </div>
             </li>
-            <li class='nav-item'><a class="nav-link" href="/blog/category/book">Book</a></li>
-            <li class='nav-item'><a class="nav-link" href="/blog/category/lifestyle">Life Style</a></li>
+            <li class='nav-item'><a class="nav-link" href="/aklog/category/book">Book</a></li>
+            <li class='nav-item'><a class="nav-link" href="/aklog/category/lifestyle">Life Style</a></li>
         </ul>
     </div>
 </nav>
