@@ -47,8 +47,17 @@ header{
             text-decoration: none;
         }
         p{
-            font-size: 1rem;
             margin-top: .5rem;
+        }
+        @media screen and (min-width:769px){//PC
+            p{
+                font-size: 1rem;
+            }
+        }
+        @media screen and (max-width:768px){//SP
+            p{
+                font-size: .9rem;
+            }
         }
     }
 
@@ -56,7 +65,7 @@ header{
         min-height: 40vh;
     }
     @media screen and (max-width:768px){//SP
-        height: 200px;
+        height: 250px;
     }
 }
 //パンくずリスト
@@ -73,12 +82,30 @@ header{
     }
 }
 .title{
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
     border-bottom: none;
     text-decoration: none;
+}
+@media screen and (min-width:769px){//PC
+    .title{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-bottom: none;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width:768px){//SP
+    .title{
+        top: 75%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-bottom: none;
+        text-decoration: none;
+    }
 }
 /* navbar */
 nav{
