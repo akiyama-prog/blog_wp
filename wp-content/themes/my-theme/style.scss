@@ -7,7 +7,6 @@ Author: Akina Yamada
 Author URI:
 Version: 1.0
 */
-
 $main-color-gray:#f5efef;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
@@ -54,10 +53,13 @@ header{
                 font-size: 1rem;
             }
         }
-        @media screen and (max-width:768px){//SP
-            p{
-                font-size: .9rem;
-            }
+    }
+    @media screen and (max-width:768px){//SP
+        a{
+            font-size: 3rem;
+        }
+        p{
+            font-size: .9rem;
         }
     }
 
@@ -356,15 +358,14 @@ footer{
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         padding: 3px;
+        a{
+            height: 40px;
+        }
     }
 
     .share li i {
         font-size: 1.3em;
         padding-top: 3px;
-    }
-
-    .facebooklink i, .tweet i, .hatena i {
-        display: none;
     }
 }
 

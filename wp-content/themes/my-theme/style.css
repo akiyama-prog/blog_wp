@@ -58,7 +58,10 @@ header a p {
 }
 
 @media screen and (max-width: 768px) {
-  header a p {
+  header a {
+    font-size: 3rem;
+  }
+  header p {
     font-size: .9rem;
   }
 }
@@ -394,12 +397,12 @@ footer .fixed-page ul {
     box-sizing: border-box;
     padding: 3px;
   }
+  .share li a {
+    height: 40px;
+  }
   .share li i {
     font-size: 1.3em;
     padding-top: 3px;
-  }
-  .facebooklink i, .tweet i, .hatena i {
-    display: none;
   }
 }
 
