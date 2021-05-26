@@ -11,6 +11,11 @@ $main-color-gray:#f5efef;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
 
+@media screen and (max-width:768px){//SP
+    h2{
+        font-size: 1.5rem;
+    }
+}
 body{
     margin: 0;
 }

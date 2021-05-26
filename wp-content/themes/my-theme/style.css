@@ -6,6 +6,12 @@ Author: Akina Yamada
 Author URI:
 Version: 1.0
 */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 body {
   margin: 0;
 }
