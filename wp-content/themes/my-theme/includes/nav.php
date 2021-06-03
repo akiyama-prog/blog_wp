@@ -13,7 +13,7 @@
                 </div>
             </li>
             <li class='nav-item'><a class="nav-link" href="/aklog/category/book">Book</a></li>
-            <li class='nav-item'><a class="nav-link" href="/aklog/category/lifestyle">Life Style</a></li>
+            <li class='nav-item'><a class="nav-link" href="/aklog/category/lifestyle">LifeStyle</a></li>
         </ul>
     </div>
 </nav>
