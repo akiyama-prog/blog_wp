@@ -382,6 +382,16 @@ footer{
     border-left: 5px solid $main-color-orange;
     padding-left: 1rem;
 }
+//蛍光ペン風下線
+.pink-line{
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #FFDFEF 0%) repeat scroll 0 0;
+}
+.blue_line{background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #cce5ff 0%) repeat scroll 0 0;}
+.yellow_line {background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;}
+.pink_line_narrow{background:rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #ffb2d8 0%) repeat scroll 0 0;}
+.blue_line_narrow {background:rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #add6ff 0%) repeat scroll 0 0;}
+.yellow_line_narrow{background:rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;}
+
 
 //目次
 .index{

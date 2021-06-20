@@ -421,6 +421,36 @@ footer .fixed-page ul {
   padding-left: 1rem;
 }
 
+.pink-line {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #FFDFEF)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #FFDFEF 0%) repeat scroll 0 0;
+}
+
+.blue_line {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #cce5ff)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #cce5ff 0%) repeat scroll 0 0;
+}
+
+.yellow_line {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(0%, #ffffbc)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #ffffbc 0%) repeat scroll 0 0;
+}
+
+.pink_line_narrow {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(0%, #ffb2d8)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #ffb2d8 0%) repeat scroll 0 0;
+}
+
+.blue_line_narrow {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(0%, #add6ff)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #add6ff 0%) repeat scroll 0 0;
+}
+
+.yellow_line_narrow {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(0%, #ffff7f)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(transparent 80%, #ffff7f 0%) repeat scroll 0 0;
+}
+
 .index {
   background-color: #f5efef;
   padding: 1rem;
