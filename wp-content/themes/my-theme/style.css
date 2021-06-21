@@ -171,6 +171,7 @@ nav button {
 }
 
 #indexPosts .thumbnail {
+  height: auto;
   width: 100%;
 }
 
