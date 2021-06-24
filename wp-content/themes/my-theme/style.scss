@@ -176,6 +176,7 @@ nav{
         }
     }
 }
+​
 // single page
 .category-name{
     display: flex;
@@ -190,21 +191,46 @@ nav{
         margin-top: 8px;
     }
 }
+.wp-block-image{
+    text-align: center;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
 .singlePostTitle, .category-name{
     margin-top: 1rem;
     background: $main-color-gray;
     p{
         margin-bottom: 0;
     }
+    figcaption{
+        font-size: 12px;
+        color: #666;
+    }
 }
 .single-post{
     width: 100%;
+    color:#333;
+    p{
+        line-height: 1.75;
+        margin-bottom: 1.5rem;
+        letter-spacing: 1.2px;
+    }
+    ul{
+        margin-bottom: 2rem;
+        li{
+            line-height: 1.75;
+            margin-bottom: 1rem;
+            letter-spacing: 1.2px;
+        }
+    }
 }
 @media screen and (min-width:769px){//PC
     .category-name{
         height: 5rem;
     }
-
+​
     .singlePostTitle, .category-name{
         p{
             margin-bottom: 0;
@@ -386,7 +412,10 @@ footer{
 .index-title{
     font-size: 1.5rem;
     border-left: 5px solid $main-color-orange;
-    padding-left: 1rem;
+    margin-top: 2rem;
+    padding: 3px 0 3px 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 //蛍光ペン風下線
 .pink-line{
