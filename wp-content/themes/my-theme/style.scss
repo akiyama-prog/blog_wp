@@ -183,6 +183,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    .category{
+        letter-spacing: .3rem;
+    }
 }
 .singlePostTitle{
     text-align: center;
@@ -230,6 +233,9 @@ nav{
 @media screen and (min-width:769px){//PC
     .category-name{
         height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 ​
     .singlePostTitle, .category-name{
@@ -248,6 +254,9 @@ nav{
 @media screen and (max-width:768px){//SP
     .category-name{
         height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .singlePostTitle, .category-name{
         p{

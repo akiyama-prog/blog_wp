@@ -221,6 +221,11 @@ nav button {
           align-items: center;
 }
 
+​
+.category-name .category {
+  letter-spacing: .3rem;
+}
+
 .singlePostTitle {
   text-align: center;
   padding: 1rem;
@@ -278,6 +283,15 @@ nav button {
 @media screen and (min-width: 769px) {
   .category-name {
     height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   ​
 .singlePostTitle p, .category-name p {
@@ -296,6 +310,15 @@ nav button {
 @media screen and (max-width: 768px) {
   .category-name {
     height: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .singlePostTitle p, .category-name p {
     margin-bottom: 0;
