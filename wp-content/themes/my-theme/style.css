@@ -110,6 +110,7 @@ header a p {
     position: absolute;
     border-bottom: none;
     text-decoration: none;
+    text-align: center;
   }
 }
 
