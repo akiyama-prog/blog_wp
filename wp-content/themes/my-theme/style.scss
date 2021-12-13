@@ -126,6 +126,50 @@ nav{
             font-size: 1.3rem;
         }
     }
+    #nav-bar{
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    position: relative;
+                    color: #ece9e9;
+                    &:before {
+                        content: '';
+                        width: 0;
+                        left: 50%;
+                        bottom: 0;
+                        transition: all 0.3s ease;
+                        border-bottom: 3px solid white;
+                        position: absolute;
+                        display: block;
+                    }
+                    &:hover{
+                        color: white;
+                    }
+                    &:hover:before {
+                        width: 50%;
+                        border-bottom: 3px solid white;
+                    }
+                    &:after {
+                        content: '';
+                        width: 0;
+                        right: 50%;
+                        bottom: 0;
+                        transition: all 0.3s ease;
+                        border-bottom: 3px solid white;
+                        position: absolute;
+                        display: block;
+                    }
+                    &:hover:after {
+                        width: 50%;
+                        border-bottom: 3px solid white;
+                    }
+                }
+            }
+        }
+
+    }
 }
 // index page
 #indexPosts{
