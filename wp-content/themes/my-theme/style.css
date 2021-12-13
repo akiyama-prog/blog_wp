@@ -147,6 +147,9 @@ nav button {
   nav a {
     font-size: 1.3rem;
   }
+  nav .nav-link {
+    padding: 0;
+  }
 }
 
 nav #nav-bar ul li {
