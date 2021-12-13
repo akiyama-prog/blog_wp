@@ -114,6 +114,9 @@ header{
 nav{
     position: absolute;
     font-size: 1.2rem;
+    @media screen and (min-width:769px){//PC
+        background-color: #2a2525;
+    }
     button{
         color: white;
         z-index: 2;

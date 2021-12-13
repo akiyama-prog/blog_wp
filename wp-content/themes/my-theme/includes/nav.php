@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light">
+<nav class="navbar navbar-expand-sm navbar-light pt-0 pb-0">
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar">
         <span class="navbar-toggler-icon"></span>
     </button>
