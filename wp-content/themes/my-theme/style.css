@@ -160,6 +160,8 @@ nav #nav-bar ul li a {
   display: block;
   position: relative;
   color: #ece9e9;
+  font-size: 1rem;
+  margin-right: 15px;
 }
 
 nav #nav-bar ul li a:before {

@@ -5,8 +5,9 @@
     <div class="collapse navbar-collapse justify-content-end" id="nav-bar">
         <ul class="navbar-nav mr-0">
             <li class='nav-item'><a class="nav-link" href="/category/programming">プログラミング</a></li>
-            <li class='nav-item'><a class="nav-link" href="/category/travel/japan">旅</a></li>
-            <li class='nav-item'><a class="nav-link" href="/category/travel/australia">ワーホリ</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/travel/uk">イギリス</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/travel/australia">オーストラリア</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/travel/japan">国内旅</a></li>
             <li class='nav-item'><a class="nav-link" href="/category/book">本</a></li>
             <li class='nav-item'><a class="nav-link" href="/category/lifestyle">ライフスタイル</a></li>
         </ul>
