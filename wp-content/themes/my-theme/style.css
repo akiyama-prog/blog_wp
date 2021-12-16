@@ -48,22 +48,26 @@ header a:hover {
   text-decoration: none;
 }
 
-header a p {
-  margin-top: .5rem;
-}
-
 @media screen and (min-width: 769px) {
+  header a .blog_title {
+    letter-spacing: .5rem;
+  }
   header a p {
     font-size: 1rem;
+    letter-spacing: 1rem;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   header a {
     font-size: 3rem;
+    letter-spacing: .3rem;
   }
   header p {
     font-size: .9rem;
+    letter-spacing: .2rem;
+    margin-top: .5rem;
   }
 }
 
