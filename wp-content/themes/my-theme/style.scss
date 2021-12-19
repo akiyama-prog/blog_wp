@@ -45,6 +45,9 @@ header{
             color: white;
             text-decoration: none;
         }
+        .blog_title, p{
+            font-family:arial black;
+        }
         @media screen and (min-width:769px){//PC
             .blog_title{
                 letter-spacing: .5rem;
@@ -60,6 +63,9 @@ header{
         a{
             font-size: 3rem;
             letter-spacing: .3rem;
+            .blog_title{
+                margin-right: 10px;
+            }
         }
         p{
             font-size: .9rem;

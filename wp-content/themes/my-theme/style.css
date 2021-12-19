@@ -48,6 +48,10 @@ header a:hover {
   text-decoration: none;
 }
 
+header a .blog_title, header a p {
+  font-family: arial black;
+}
+
 @media screen and (min-width: 769px) {
   header a .blog_title {
     letter-spacing: .5rem;
@@ -63,6 +67,9 @@ header a:hover {
   header a {
     font-size: 3rem;
     letter-spacing: .3rem;
+  }
+  header a .blog_title {
+    margin-right: 10px;
   }
   header p {
     font-size: .9rem;
