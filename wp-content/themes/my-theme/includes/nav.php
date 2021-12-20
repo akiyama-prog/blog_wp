@@ -5,9 +5,9 @@
     <div class="collapse navbar-collapse justify-content-end" id="nav-bar">
         <ul class="navbar-nav mr-0">
             <li class='nav-item'><a class="nav-link" href="/category/programming">プログラミング</a></li>
-            <li class='nav-item'><a class="nav-link" href="/category/uk">イギリス</a></li>
-            <li class='nav-item'><a class="nav-link" href="/category/workingholiday">ワーホリ</a></li>
-            <li class='nav-item'><a class="nav-link" href="/category/japan">国内旅</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/england">イギリス</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/overseas">海外旅行</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/japan">国内旅行</a></li>
         </ul>
     </div>
 </nav>
