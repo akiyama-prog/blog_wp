@@ -22,7 +22,7 @@ body{
     overflow: hidden;
 }
 /* header */
-header{
+.header{
     position: relative;
     width: 100%;
     background: url("./img/mountains.JPG");
@@ -253,7 +253,7 @@ nav{
 .singlePostTitle{
     text-align: center;
     padding: 1rem;
-    h2{
+    .article_title{
         font-size: 1.7rem;
         margin-top: 8px;
     }

@@ -6,12 +6,16 @@
 </head>
 
 <body>
-    <?php get_template_part('includes/header'); ?>
+    <header>
+        <?php get_template_part('includes/nav'); ?>
+        <?php get_template_part('includes/bread'); ?>
+    </header>
+    
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <div class='singlePostTitle'>
                 <p><?php the_time('Y-m-d'); ?></p>
-                <h2><?php the_title(); ?></h2>
+                <h1 class="article_title"><?php the_title(); ?></h1>
                 <p><?php $cat = get_the_category();
                     echo $cat[0]->cat_name; ?></p>
             </div>

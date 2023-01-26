@@ -19,7 +19,7 @@ body {
 }
 
 /* header */
-header {
+.header {
   position: relative;
   width: 100%;
   background: url("./img/mountains.JPG");
@@ -27,7 +27,7 @@ header {
   background-position: center bottom 43%;
 }
 
-header::before {
+.header::before {
   content: '';
   position: absolute;
   top: 0;
@@ -39,24 +39,24 @@ header::before {
   display: block;
 }
 
-header a {
+.header a {
   color: white;
 }
 
-header a:hover {
+.header a:hover {
   color: white;
   text-decoration: none;
 }
 
-header a .blog_title, header a p {
+.header a .blog_title, .header a p {
   font-family: arial black;
 }
 
 @media screen and (min-width: 769px) {
-  header a .blog_title {
+  .header a .blog_title {
     letter-spacing: .5rem;
   }
-  header a p {
+  .header a p {
     font-size: 1rem;
     letter-spacing: 1rem;
     margin-top: 10px;
@@ -64,14 +64,14 @@ header a .blog_title, header a p {
 }
 
 @media screen and (max-width: 768px) {
-  header a {
+  .header a {
     font-size: 3rem;
     letter-spacing: .3rem;
   }
-  header a .blog_title {
+  .header a .blog_title {
     margin-right: 10px;
   }
-  header p {
+  .header p {
     font-size: .9rem;
     letter-spacing: .2rem;
     margin-top: .5rem;
@@ -79,13 +79,13 @@ header a .blog_title, header a p {
 }
 
 @media screen and (min-width: 769px) {
-  header {
+  .header {
     min-height: 40vh;
   }
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  .header {
     height: 250px;
   }
 }
@@ -301,7 +301,7 @@ nav #nav-bar ul li a:hover:after {
   padding: 1rem;
 }
 
-.singlePostTitle h2 {
+.singlePostTitle .article_title {
   font-size: 1.7rem;
   margin-top: 8px;
 }
