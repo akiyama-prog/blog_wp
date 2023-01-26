@@ -4,6 +4,7 @@ $title_encode = urlencode(get_the_title()) . '｜' . get_bloginfo('name');
 ?>
 
 <div class="share">
+    <p>↓↓記事のシェアをお願いします↓↓</p>
     <ul>
         <!--Facebookボタン-->
         <li class="facebooklink">
