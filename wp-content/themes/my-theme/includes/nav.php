@@ -8,6 +8,8 @@
             <li class='nav-item'><a class="nav-link" href="/category/england">イギリス</a></li>
             <li class='nav-item'><a class="nav-link" href="/category/overseas">海外旅行</a></li>
             <li class='nav-item'><a class="nav-link" href="/category/japan">国内旅行</a></li>
+            <li class='nav-item'><a class="nav-link" href="/category/book/">本</a></li>
+            <li></li>
         </ul>
     </div>
 </nav>
