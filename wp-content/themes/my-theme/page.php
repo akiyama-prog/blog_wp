@@ -6,7 +6,10 @@
 </head>
 
 <body>
-    <?php get_template_part('includes/header'); ?>
+    <header>
+        <?php get_template_part('includes/nav'); ?>
+        <?php get_template_part('includes/bread'); ?>
+    </header>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <div id='indexPosts'>

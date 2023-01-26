@@ -7,7 +7,12 @@
 
 <body>
     <div id="container">
-        <?php get_template_part('includes/header'); ?>
+        <header>
+            <?php get_template_part('includes/nav'); ?>
+            <?php get_template_part('includes/header'); ?>
+            <?php get_template_part('includes/bread'); ?>
+        </header>
+
         <div class='category-name'>
             <h3 class='category'><?php $cat = get_the_category();
                                     echo $cat[0]->cat_name; ?></h3>

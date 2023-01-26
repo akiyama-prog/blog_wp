@@ -7,7 +7,12 @@
 
 <body>
     <div id="container">
-        <?php get_template_part('includes/header'); ?>
+        <header>
+            <?php get_template_part('includes/nav'); ?>
+            <?php get_template_part('includes/header'); ?>
+            <?php get_template_part('includes/bread'); ?>
+        </header>
+
         <div id='indexPosts'>
             <main>
                 <!-- 記事一覧 -->
