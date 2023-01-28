@@ -2,6 +2,9 @@
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-bar">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="nav-title" href="<?php bloginfo('url'); ?>"><span class="blog_title"><?php $title = get_bloginfo('name');
+                                                                                        echo $title ?></span>
+            </a>
     <div class="collapse navbar-collapse justify-content-end" id="nav-bar">
         <ul class="navbar-nav mr-0">
             <li class='nav-item'><a class="nav-link" href="/category/programming">プログラミング</a></li>

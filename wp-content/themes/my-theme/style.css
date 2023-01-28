@@ -143,6 +143,20 @@ nav {
   font-size: 1.2rem;
 }
 
+nav .nav-title {
+  color: white;
+}
+
+nav .nav-title:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav .nav-title .blog_title {
+  letter-spacing: .5rem;
+  font-family: arial black;
+}
+
 @media screen and (min-width: 769px) {
   nav {
     background-color: #2a2525;
