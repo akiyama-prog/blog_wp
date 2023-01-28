@@ -123,10 +123,13 @@ body{
 }
 /* navbar */
 nav{
-    position: absolute;
     font-size: 1.2rem;
+    background-color: #2a2525;
     .nav-title{
         color:white;
+        margin-left: 20%;
+        margin-right: auto;
+        
         &:hover{
             color: white;
             text-decoration: none;
@@ -135,9 +138,6 @@ nav{
             letter-spacing: .5rem;
             font-family:arial black;
         }
-    }
-    @media screen and (min-width:769px){//PC
-        background-color: #2a2525;
     }
     button{
         color: white;
