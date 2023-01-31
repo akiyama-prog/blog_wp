@@ -145,8 +145,13 @@ nav {
 
 nav .nav-title {
   color: white;
-  margin-left: 20%;
   margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-title {
+    margin-left: 20%;
+  }
 }
 
 nav .nav-title:hover {

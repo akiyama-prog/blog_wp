@@ -127,9 +127,10 @@ nav{
     background-color: #2a2525;
     .nav-title{
         color:white;
-        margin-left: 20%;
         margin-right: auto;
-        
+        @media screen and (max-width:768px){
+            margin-left: 20%;
+        }
         &:hover{
             color: white;
             text-decoration: none;
