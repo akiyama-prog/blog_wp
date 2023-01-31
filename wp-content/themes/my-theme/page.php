@@ -8,7 +8,6 @@
 <body>
     <header>
         <?php get_template_part('includes/nav'); ?>
-        <?php get_template_part('includes/bread'); ?>
     </header>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
@@ -25,6 +24,7 @@
                     <?php if (dynamic_sidebar('main-sidbar')) : else : endif; ?>
                 </aside>
             </div>
+            <?php get_template_part('includes/bread'); ?>
             <?php get_template_part('footer'); ?>
         <?php endwhile; ?>
     <?php endif; ?>
