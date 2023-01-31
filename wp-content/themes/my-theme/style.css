@@ -256,11 +256,6 @@ nav #nav-bar ul li a:hover:after {
   padding: 1.5rem 1rem;
 }
 
-#indexPosts .thumbnail {
-  height: auto;
-  width: 100%;
-}
-
 @media screen and (min-width: 769px) {
   #indexPosts main {
     width: 65%;
@@ -287,6 +282,7 @@ nav #nav-bar ul li a:hover:after {
   }
   #indexPosts .thumbnail {
     height: auto;
+    width: 100%;
   }
   #indexPosts aside {
     display: none;

@@ -217,10 +217,6 @@ nav{
         text-align: center;
         padding: 1.5rem 1rem;
     }
-    .thumbnail{
-        height: auto;
-        width: 100%;
-    }
     @media screen and (min-width:769px){//PC
         main{
             width: 65%;
@@ -246,6 +242,7 @@ nav{
         }
         .thumbnail{
             height: auto;
+            width: 100%;
         }
         aside{
             display: none;
