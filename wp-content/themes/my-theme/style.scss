@@ -7,7 +7,7 @@ Author: Akina Yamada
 Author URI:
 Version: 1.0
 */
-$main-color-gray:#f5efef;
+$main-color:#f0ded4;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
 
@@ -217,7 +217,7 @@ nav{
     }
     .index-post{
         width: 100%;
-        border: $main-color-gray 1px solid;
+        border: $main-color 1px solid;
         text-align: center;
         padding: 1.5rem 1rem;
     }
@@ -280,7 +280,7 @@ nav{
 }
 .singlePostTitle, .category-name{
     margin-top: 1rem;
-    background: $main-color-gray;
+    background: $main-color;
     p{
         margin-bottom: 0;
     }
@@ -414,7 +414,7 @@ nav{
 }
 //フッター
 footer{
-    background: $main-color-gray;
+    background: $main-color;
     margin-top: 2rem;
     li{
         list-style: none;
@@ -445,7 +445,7 @@ footer{
 
 @media screen and (max-width:768px){//SP
     footer{
-        background: $main-color-gray;
+        background: $main-color;
         margin-top: 2rem;
         p{
             border-bottom: 2px solid black;
@@ -491,7 +491,7 @@ footer{
 **  投稿記事内のcss装飾
 **/
 .code{
-    background-color: $main-color-gray;
+    background-color: $main-color;
     padding: 1rem;
 }
 //記事の小項目
@@ -516,7 +516,7 @@ footer{
 
 //目次
 .index{
-    background-color: $main-color-gray;
+    background-color: $main-color;
     padding: 1rem;
     line-height: 2rem;
     a{
