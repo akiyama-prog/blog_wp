@@ -11,6 +11,10 @@ $main-color-gray:#f5efef;
 $main-color-orange:#EF866B;
 $letter:rgb(100, 97, 97);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
 }

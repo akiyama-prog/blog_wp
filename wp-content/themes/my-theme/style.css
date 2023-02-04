@@ -7,6 +7,10 @@ Author: Akina Yamada
 Author URI:
 Version: 1.0
 */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
