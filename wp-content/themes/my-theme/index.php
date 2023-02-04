@@ -29,7 +29,10 @@
                                 ?>
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/no-image.png" alt="No Image" class='thumbnail' />
                                 <?php endif; ?>
+                                <?php if (wp_is_mobile()) : ?>
+                                <?php else : ?>
                                 <?php the_excerpt() ?>
+                                <?php endif; ?>
                             </a>
                         </article>
                     <?php endwhile; ?>
